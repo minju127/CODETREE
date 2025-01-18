@@ -2,7 +2,7 @@ n=int(input())
 cnt=0
 num=1
 while True:
-    n=n/num
+    n=n//num
     cnt+=1
     num+=1
     if n<=1:
