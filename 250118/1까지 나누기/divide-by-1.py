@@ -6,6 +6,5 @@ while True:
     cnt+=1
     num+=1
     if n<=1:
-        cnt-=1
+        print(cnt)
         break
-print(cnt)
