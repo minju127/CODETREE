@@ -1,4 +1,7 @@
-nums=list(map(int, input().split(' ')))
+nums=[]
+for i in range(5):
+    a=int(input())
+    nums.append(a)
 sat=True
 for i in nums:
     if i%3!=0:
