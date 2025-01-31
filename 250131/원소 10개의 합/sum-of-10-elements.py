@@ -1,5 +1,6 @@
-sums=0
-n=list(map(int, input().split(' ')))
-for i in n:
-    sums+=i
-print(sums)
+arr=input().split(' ')
+sum_val=0
+
+for i in arr:
+    sum_val=sum_val+int(i)
+print(sum_val)
