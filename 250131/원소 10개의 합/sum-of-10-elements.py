@@ -1,4 +1,4 @@
-arr=input().split(' ')
+arr=input().split()
 sum_val=0
 
 for i in arr:
