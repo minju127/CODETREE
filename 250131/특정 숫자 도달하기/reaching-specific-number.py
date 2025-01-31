@@ -22,4 +22,4 @@ for i in nums:
     sums += i
     cnt += 1
 
-print(f'{sums} {sums/cnt}')
+print(f'{sums} {sums/cnt:.1f}')
