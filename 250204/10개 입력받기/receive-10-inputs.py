@@ -6,4 +6,4 @@ for i in arr:
     else:
         arr2.append(i)
 
-print(f'{sum(arr2)} {sum(arr2)/len(arr2)}')
+print(f'{sum(arr2)} {sum(arr2)/len(arr2):.1f}')
