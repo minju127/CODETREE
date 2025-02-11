@@ -2,7 +2,8 @@ arr_1=[
     list(map(int, input().split())) for i in range(3)
 ]
 #↑ 여기서는 입력값을 최종적으로 list로 묶어주기 때문에 전 문제랑은 달리 다시 []로 묶어주지 않아도 됨
-print()
+_=input()
+#중간에 줄 간격도 입력으로 들어오기 때문에 따로 처리해줘야 됨
 arr_2=[
     list(map(int, input().split())) for j in range(3)
 ]
