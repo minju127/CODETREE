@@ -15,5 +15,5 @@ for i in range(2, n):
 
 for nums in arr:
     for num in nums:
-        print(num end=' ')
+        print(num, end=' ')
     print()
